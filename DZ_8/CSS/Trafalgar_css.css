@@ -1,0 +1,176 @@
+@import "reset.css";
+/* путь указывается относительно файла css в
+в данном случае они в одной папке */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+/* Загрузка нужных текстовых стилей с сайта */
+
+/* Global settigs */
+body {
+    font-family: mulish, arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    /* глобальные характеристики контейнера, чтоб всё внутри было */
+}
+.text-button {
+    display: flex;
+    justify-content: center;
+}
+.text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #7D7987;
+}
+.text-center {
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.56;
+    color: black;          
+}
+.title::after {
+    display: block;
+    content: " ";
+    height: 2px;
+    width: 56px;
+    background-color: black;    
+    margin-top: 26px;
+ 
+}
+.title-center {
+    text-align: center;
+}
+.title-center::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-smoll {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Контейнер для содержимого секции */
+.conteiner-big {
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Большой контейнер для содержимого секции */
+/* NAVIGATIONS */
+.button {
+    min-width: 200px;
+    /* размер кнопки МИНимум 200px */
+    color: #458FF6;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.1;
+    border-radius: 55px;
+    border: #458FF6 solid 1px;
+    padding : 20px 50px;
+    font-family: inherit;
+    background-color: white;
+}
+.button-field {
+    color: white;
+    background-color: #458FF6;
+}
+header {
+    padding-top: 56px;
+    padding-bottom: 80px;
+    display: flex;
+    /* Растягиваю хедер по бокам */
+    justify-content: space-between;
+    /* Способ растягивания свободное 
+    пространство поровну между правым и левым */
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    /* Выравнивание по поперечной оси в центре */
+}
+.logo span {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #233348;
+}
+.logo img {
+    margin-right: 12px;
+}
+.nav-list {
+    display: flex;
+    /*растягиваю список ссылок в навигации  */
+}
+.nav-list li {
+    margin-right: 40px;
+}
+.nav-list li:last-child {
+    margin-right: 0;
+    /* убираю последнему элементу списка маржин */
+}
+.nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.28px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+.nav-link-entered {
+    color: 1F1534;
+    font-weight: bold;
+    opacity: 1;
+}
+/* Main start */
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 190px;
+}
+.hero-content {
+    margin-right: 110px;
+}
+.hero-content h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.17;
+    color: black;
+    margin-bottom: 25px;
+}
+.hero-content p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 1.52;
+    color: #7D7987;
+    margin-bottom: 45px;
+}
+
+/* SECTIONS service */
+.services h2 {
+    margin-bottom: 33px;
+}
+.services > p {
+    margin-bottom: 80px;
+    width: 952px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 350px;
+    background-color: white;
+}
+/* SECTIONS 3 */
+/* Main end */
+/* FOOTER */
