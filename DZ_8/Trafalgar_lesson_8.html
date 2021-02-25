@@ -50,8 +50,11 @@
         </nav>
     </header>
     <!-- End header -->
+
+
     <!-- Start main -->
     <main>
+
         <!-- Start HERO -->
         <section class="hero conteiner-big">
             <!-- Задаю размер секции по большому шаблону
@@ -70,7 +73,6 @@
             </div>
             <img src="Img/image_tablet_2.png" alt="tablet with people">
         </section>
-
         <!-- End HERO -->
 
         <!-- Start SECTION service -->
@@ -131,9 +133,11 @@
                 <li>
                     <img src="Img/list.svg" alt="list">
                     <h3>
-                        Tracking                </h3>
+                        Tracking
+                    </h3>
                     <p>
-                        Track and save your medical history and health data                 </p>
+                        Track and save your medical history and health data
+                    </p>
                 </li>
             </ul>
             <div class="text-button">
@@ -141,74 +145,105 @@
             </div>            
         </section>
         <!-- End SECTION service -->
-        <!-- Start SECTION leading healthcare -->
-        <section class="container-big">
-            <img src="" alt="">
-            <h2>
-                Leading healthcare providers
-            </h2>
-            <p>
-                Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
-                in the solutions we deliver
-            </p>
-            <a href="#" class="button">Learn more</a>
-        </section>
-        <!-- Start SECTION 3.2 -->
-        <section class="container-big">
-            <img src="" alt="">
-            <h2>
-                Download our 
-                mobile apps
-            </h2>
-            <p>
-                Our dedicated patient engagement app and 
-    web portal allow you to access information instantaneously (no tedeous form, long calls, 
-    or administrative hassle) and securely
-            </p>
-            <a href="#" class="button">Learn more</a>
-        </section>
-        <!-- Start SECTION 3.3 -->
-        <section class="container-smoll">
-            <h3>
-                What our customer are saying
-            </h3>
+
+
+        <!-- Start SECTION Leading healthcare -->
+        <section class="conteiner-big leading-health">
+            <img src="Img/image_tablet.png" alt="image with 2 docters">
             <div>
-                <img src="" alt="">
-                <h4>
-                    Edward Newgate
-                </h4>
-                <p>
-                    Founder Circle
+                <h2 class="title">
+                    Leading healthcare providers
+                </h2>
+                <p class="text">
+                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
+                    in the solutions we deliver
                 </p>
+                <a href="#" class="button">
+                    Learn more
+                </a>
             </div>
-            <div>
-                <p>
-                    “Our dedicated patient engagement app and 
-    web portal allow you to access information instantaneously (no tedeous form, long calls, 
-    or administrative hassle) and securely
-                </p>
-            </div>
-            <!-- slider switch  -->
-            <ul>
-    <li><button disabled="disabled"></button></li>
-    <li><button disabled="disabled"></button></li>
-    <li><button disabled="disabled"></button></li>
-    <li><button disabled="disabled"></button></li>
-    <li><button disabled="disabled"></button></li>
-    <li><button disabled="disabled"></button></li>
-            </ul>
         </section>
-        <!-- End SECTION 3 -->
+        <!-- End SECTION Leading healthcare -->
+
+
+        <!-- Start SECTION Download -->
+        <section class="conteiner-big download">   
+            <div>       
+                <h2 class="title">
+                    Download our 
+                    mobile apps
+                </h2>
+                <p class="text">
+                    Our dedicated patient engagement app and 
+                    web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                    or administrative hassle) and securely
+                </p>
+                <a href="#" class="button">
+                    Learn more
+                </a>
+            </div>  
+            <img src="Img/image_tablet_heart.png" alt="tablet with 2 people and heart">
+        </section>
+        <!-- End SECTION Download -->
+
+
+        <!-- Start SECTION reviews -->
+        <section class="container-smoll reviews">
+            <div class="reviews-section">           
+                <h2 class="title title-center title-center-white">
+                    What our customer are saying
+                </h2>            
+                <div class="persona">
+                    <img src="Img/Edward_Newgate.png" alt="Edward Newgate">
+                        <div class="persona-name">                            
+                                <span>Edward Newgate</span>                            
+                                <p>Founder Circle</p>                            
+                        </div>                
+                    </p>                
+                
+            
+                    <blockquote>
+                        “Our dedicated patient engagement app and 
+                        web portal allow you to access information instantaneously (no tedeous form, long calls, 
+                        or administrative hassle) and securely"
+                    </blockquote>
+                </div>
+            </div>
+            
+        </section>
+        <!-- slider switch  -->
+        <ul class="button-list">
+            <li>
+                <button class="border-slider-vector-left"><img src="img/Vector.svg" alt="vector"></button>
+            </li>
+            <li>
+                <button  class="button-slider border-slider-selected"></button>
+            </li>
+            <li>
+                <button  class="button-slider"></button>
+            </li>
+            <li>
+                <button  class="button-slider"></button>
+            </li>
+            <li>
+                <button  class="button-slider"></button>
+            </li>
+            <li>
+                <button class="border-slider-vector-right"><img src="img/Vector.svg" alt="vector"></button>
+            </li>
+        </ul>
+        <!-- End SECTION reviews -->
         
-        <!-- Start SECTION 4 -->
-        <section class="container-smoll">
-            <h3>
+        
+        <!-- Start SECTION Last article -->
+        <section class="container-smoll last-article-h3">
+            <h3 class="title title-center">
                 Check out our latest article
             </h3>
-            <ul>
+            <ul class="last-article">
                 <li>
-                    <img src="" alt="">
-                    <div>
+                    <img src="Img/injection.png" alt="injection">
+                    <div class="last-article-container-text">
                         <h3>
                             Disease detection, check 
                             up in the laboratory
@@ -217,12 +252,12 @@
                             In this case, the role of the health laboratory is very important to do
                             a disease detection...
                         </p>
-                        <a href="#">Read more</a>
+                        <a href="#">Read more &emsp; &rarr;</a>
                     </div>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <div>
+                    <img src="Img/microscope.png" alt="/microscope">
+                    <div class="last-article-container-text">
                         <h3>
                             Herbal medicines that are 
                             safe for consumption
@@ -232,12 +267,12 @@
                             this time because of its very good for your 
                             health...
                         </p>
-                        <a href="#">Read more</a>
+                        <a href="#">Read more &emsp; &rarr;</a>
                     </div>
                 </li>
                 <li>
-                    <img src="" alt="">
-                    <div>
+                    <img src="Img/mask_for_the_face.png" alt="mask for the face">
+                    <div class="last-article-container-text">
                         <h3>
                             Natural care for healthy 
                             facial skin
@@ -246,89 +281,111 @@
                             A healthy lifestyle should start from now and also for your skin health.
                             There are some...
                         </p>
-                        <a href="#">Read more</a>
+                        <a href="#">Read more &emsp; &rarr;</a>
                     </div>
                 </li>
             </ul>
-            <a href="#">View all</a>
+            <div class="text-button">
+                <a href="#" class="button">View all</a>
+            </div>            
         </section>
-        <!-- End SECTION 4 -->
+        <!-- End SECTION Last article -->
+
+
     </main> 
     <!-- End main -->
+
+    
     <!-- Start Footer -->
-    <footer class="container-big">
-        <div>
-            <a href="">
-                <img src="" alt=""><span>Trafalgar</span>
-            </a>            
-            <p>
-                Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
-                for everyone
-            </p>
-            <p>
-                ©Trafalgar PTY LTD 2020. All rights reserved
-            </p>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <h3>
-                        Company
-                    </h3>
-                </li>
-                <li>
-                    <a href="">About</a>
-                </li>  
-                <li>
-                    <a href="">Testimonials</a>
-                </li>
-                <li>
-                    <a href="">Find a doctor</a>
-                </li>
-                <li>
-                    <a href="">Apps</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>
-                        Region
-                    </h3>
-                </li>
-                <li>
-                    <a href="">Indonesia</a>
-                </li>  
-                <li>
-                    <a href="">Singapore</a>
-                </li>
-                <li>
-                    <a href="">Hongkong</a>
-                </li>
-                <li>
-                    <a href="">Canada</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>
-                        Help
-                    </h3>
-                </li>
-                <li>
-                    <a href="">Help center</a>
-                </li>  
-                <li>
-                    <a href="">Contact support</a>
-                </li>
-                <li>
-                    <a href="">Instructions</a>
-                </li>
-                <li>
-                    <a href="">How it works</a>
-                </li>
-            </ul>
-        </nav>
+    <footer>
+        <div class="conteiner-big footer-container">
+            <section class="credential">
+                <a href="#" class="logo logo-white">
+                    <img src="Img/Logo_white.svg" alt="Logo">
+                    <span>Trafalgar</span>
+                </a>            
+                <p class="all-rights-1">
+                    Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online 
+                    for everyone
+                </p>
+                <p class="all-rights-2">
+                    ©Trafalgar PTY LTD 2020. All rights reserved
+                </p>
+            </section>
+            <section class="nav-footer">
+                <nav>
+                    <ul>
+                        <li>
+                            <h3>
+                                Company
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>  
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#">Find a doctor</a>
+                        </li>
+                        <li>
+                            <a href="#">Apps</a>
+                        </li>
+                    </ul>
+            </section>
+            <section class="nav-footer">
+                <nav>    
+                    <ul>
+                        <li>
+                            <h3>
+                                Region
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="#">Indonesia</a>
+                        </li>  
+                        <li>
+                            <a href="#">Singapore</a>
+                        </li>
+                        <li>
+                            <a href="#">Hongkong</a>
+                        </li>
+                        <li>
+                            <a href="#">Canada</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>         
+            <section class="nav-footer">
+                <nav>
+                    <ul>
+                        <li>
+                            <h3>
+                                Help
+                            </h3>
+                        </li>
+                        <li>
+                            <a href="#" class="naf-footer-link">Help center</a>
+                        </li>  
+                        <li>
+                            <a href="#">Contact support</a>
+                        </li>
+                        <li>
+                            <a href="#">Instructions</a>
+                        </li>
+                        <li>
+                            <a href="#">How it works</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section> 
+                
+        </section>
+        </div>    
     </footer>
     <!-- End Footer -->
+
+
 </body>
 </html>
