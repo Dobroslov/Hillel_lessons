@@ -224,6 +224,7 @@ header {
     margin-bottom: 0;
 }
 
+
 /* Slider switch */
 .button-list {
     display: flex;
@@ -253,6 +254,7 @@ header {
     border: 0;
     margin-right: 80px;
     padding-bottom: 8px;
+    opacity: 0.3;
 }
 .border-slider-vector-right {
     background-color: rgba(255, 255, 255, 0);
@@ -440,6 +442,11 @@ footer span {
     font-weight: 300;
     font-size: 16px;
     line-height: 1.75;    
+}
+.navigaton {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
 }
 .nav-footer h3 {
     font-weight: bold;
