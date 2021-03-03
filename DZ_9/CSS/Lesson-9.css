@@ -11,10 +11,12 @@
     text-decoration: none;
     /* глобальные характеристики контейнера, чтоб всё внутри было */
 }
+
 body {
     font-family: roboto, sans-serif;
     height: 3000px;
 }
+
 header {
     background-color: #5C6F4E;
     position: fixed;
@@ -22,6 +24,7 @@ header {
     left: 0;
     right: 0;
 }
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -31,17 +34,20 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.nav-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;     
-}
+
 .logo {
     color: white;
     font-size: 36px;
     font-weight: normal;
     line-height: 1.17;
 }
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+
 .nav-link {
     text-decoration: none;
     color: black;
@@ -49,24 +55,44 @@ header {
     font-style: normal;
     font-size: 24px;
     line-height: 1.17;
+    display: block;  
+    width: 265px;
 }
-.perent:hover .hover-list { 
+
+.circle {    
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.circle:hover .hover-list {
     visibility: visible;
     opacity: 1;
 }
-.hover-list {
+
+.hover-list {    
     position: absolute;
     visibility: hidden;
-    background-color: #7B89BA;
-    padding: 10px 74px 0 16px;
+    background-color: #6F7397;
+    padding: 10px 0px 10px 0px;
     opacity: 0;
-    transition: 2s opacity ease-out;    
+    transition: 1s opacity ease-out;
+    top: 52px;
+    right: 10px;      
 }
+
 .list-hidden:hover {
-    background-color: blue;
+    background-color: #7B89BA;
+    font-size: 20px;
 }
+
+.circle:hover .vector {
+    rotate: 180deg;
+}
+
 .list-hidden {  
-    margin-bottom: 32px;    
+    padding: 16px 10px;
 }
 main {
     height: 1100px;
@@ -75,4 +101,8 @@ main {
     background-position: center top;
     background-size: contain;
     background-size:cover
+}
+
+.vector {
+   margin-left: 10px;
 }
