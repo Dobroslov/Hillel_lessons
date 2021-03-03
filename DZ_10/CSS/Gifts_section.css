@@ -1,0 +1,70 @@
+.gifts {
+    background: #FFFFFF;
+    padding-top: 96px;
+    padding-bottom: 137px;
+}
+
+.gifts-for-all-container p {
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.35;
+    color: black;
+}
+
+.gifts-list {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.gifts-list li {
+    width: 270px;
+    transition: all 0.3s;
+    /* задаем ширину для блока с картинкой */
+}
+
+.gifts-list img {
+    width: 100%;
+    /* даём картинке значение 100% чтоб она была такой относительно li */
+}
+
+.gifts-for-all-containerr h2 {
+    margin-bottom: 23px;
+}
+
+.hover-list h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 74px;
+}
+.gifts-list li:hover {
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+    
+}
+.gifts-list li:hover .figcaption-text {
+    background: #FFFFFF;
+}
+.figcaption-text {
+    padding: 24px;
+    background: #FAFAFA;
+    transition: all 0.3s;
+}
+
+.figcaption-text a::after {
+    content: ' ›';
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-fill-black {
+    margin-right: 16px;
+}

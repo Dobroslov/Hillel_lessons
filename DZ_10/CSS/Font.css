@@ -1,0 +1,29 @@
+/* Добавляем шрифты, которые скачали */
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    /* период замены шрифта 
+    по умолчанию на установленный */
+    src: url("../Fonts/gilroy-bold.woff2") format('woff2');
+    src: url("../Fonts/Gilroy-Bold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;    
+    src: url("../Fonts/gilroy-regular.woff2") format('woff2');
+    src: url("../Fonts/Gilroy-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;    
+    src: url("../Fonts/Roboto-Regular.woff2") format('woff2');
+    src: url("../Fonts/Roboto-Regular.woff") format('woff');
+}

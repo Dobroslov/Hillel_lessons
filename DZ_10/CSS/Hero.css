@@ -1,0 +1,39 @@
+.hero {
+    background: #F1F1F2;
+    padding-top: 76px;
+    padding-bottom: 130px;
+}
+.hero-flex {
+    display: flex;
+    justify-content: space-between;       
+}
+
+.hero-top-content {
+    width: 434px;    
+}
+
+.hero-top-content p {
+    margin-bottom: 52px;
+}
+
+.hero-flex img {
+    width: 570px;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 76px;
+}
+
+.hero-bottom-content {
+    width: 442px;
+}
+.hero-bottom-content h2 {   
+    margin-bottom: 23px;
+}
+
+.hero-bottom-content p { 
+    margin-bottom: 36px;
+}

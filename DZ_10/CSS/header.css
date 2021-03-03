@@ -1,0 +1,28 @@
+header {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: white;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header-nav {
+    display: flex;        
+}
+
+.header-nav li {
+    margin-right: 32px;
+}
+
+.header-nav li:last-child {
+    margin-right: 0px;
+}
+
+.header-nav a {
+    font-size: 18px;
+    line-height: 1.22;
+    color: black;
+}
