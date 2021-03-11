@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 196px;
+}
+
+.img-logo {
+    margin-right: 21px;
+}
+
+.logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.18;
+    color: #505050;
+    padding-right: 100px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 440px;
+}
+
+.nav-link-header {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #717784;       
+}
+

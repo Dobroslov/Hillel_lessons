@@ -1,0 +1,49 @@
+.support {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 104px;
+}
+
+.support-text {
+    width: 494px;    
+}
+
+.support-text h2 {
+    margin-bottom: 16px;    
+}
+
+.support-text p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #626780;
+}
+
+.support-image {
+    width: 579px; 
+    height: 390px;
+    background-image: url(../img/support/support-24.svg), 
+    url(../img/support/man-left-top.png), 
+    url(../img/support/man-left-center.png),
+    url(../img/support/man-left-bottom.png),
+    url(../img/support/man-right-top.png),
+    url(../img/support/man-right-bottom.png),
+    url(../img/support/man-bottom.png),
+    url(../img/support/Vector-1.svg), 
+    url(../img/support/Vector-2.svg),
+    url(../img/support/Vector-3.svg);
+    background-position: top 124px right 117px, 
+    top left 200px,
+    top 111px  left 136px,
+    left bottom 88px,
+    right top 26px,
+    bottom right 30px,
+    bottom 14px left 239px,
+    top 42px left 55px,
+    top 14px right 175px,
+    bottom 41px right 69px;
+    background-repeat: no-repeat;    
+}

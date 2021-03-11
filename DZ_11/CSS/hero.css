@@ -1,0 +1,43 @@
+.hero {
+    background-image: url("../img/hero/nootbook.jpg");
+    /* загружаем бэкграунд картинку из папки */
+    background-size: cover;
+    /* обрезается картинка, но заливается вся видимая область 
+    Ключевое слово, обратное contain. 
+    Масштабирует изображение как можно 
+    больше c сохранением пропорций изображения 
+    (изображение не становится сплющенным). 
+    Когда изображение и контейнер имеют разные 
+    размеры, изображение обрезается либо влево / 
+    вправо, либо сверху / снизу.*/
+    background-position: bottom center;
+    /* привязываем картинку к верху и середине */
+    height: 100vh;
+    /* задаем высоту бэкграунда по всей высоте картинки VH - Viewport Height  
+    это процентная величина от общей высоты области просмотра. */
+    padding-top: 22px;
+}
+
+.hero-consultant {
+    width: 751px;    
+}
+
+.title-hero {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 100%;    
+    color: #696A86;
+    width: 548px;
+}
+
+.text-hero {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #696A86;
+    margin-bottom: 30px;
+}
+

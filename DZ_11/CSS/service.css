@@ -1,0 +1,64 @@
+.services {
+    padding-top: 95px;
+    padding-bottom: 192px;
+}
+
+.service-text {
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 139px;
+}
+
+.services h2 {
+    margin-bottom: 13px;
+}
+
+.servic-list {
+    display: flex;
+    justify-content: space-between;
+         
+}
+
+.servic-list li {
+    border: 1px solid white;
+    border-radius: 5px;    
+    margin-right: 21px;
+}
+
+.servic-list li:last-child {
+    margin-right: 0px;
+}
+
+.servic-list li:hover {
+    border: 1px solid #9D9D9D;   
+    border-radius: 5px;
+    transition: all 0.7s;
+    /* появление рамки на выбраноом элементе списка */    
+}
+
+.servic-list li:hover .border-container {
+    border-bottom: 7px solid rgb(77%, 77%, 77%, 1);
+    transition: all 0.7s; 
+    /* нижняя черта для рамки видимая */
+}
+
+.border-container {
+    border-radius: 5px;
+    padding: 23px 10px;
+    border-bottom: 7px solid rgb(77%, 77%, 77%, 0);     
+    /* нижняя черта для рамки прозрачная */ 
+}
+
+.servic-list img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* img по центру контейнера разместить */
+    margin-bottom: 21px;        
+}
+
+.servic-list h3 {
+    margin-bottom: 12px;
+}
+

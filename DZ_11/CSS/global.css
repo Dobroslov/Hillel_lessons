@@ -1,0 +1,93 @@
+html, 
+body {
+    font-family: Gilroy, sans-serif;
+    background-color: #F1F1F2;
+    min-height: 100%; 
+    /* минимальная высота чтоб была в любом случае 100% */
+}
+
+.container {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-orange {
+    width: 1172px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F7941E;
+    padding: 81px 69px;
+}
+
+.button {
+    font-size: 18px;
+    line-height: 1.22;
+    color: #F7941E;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    padding: 14px 24px;
+    text-transform: uppercase;
+    min-width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+.button-fill {
+    background-color: #F7941E;
+    color: white;
+}
+
+.button-fill-black {
+    background-color: black;
+    color: white;
+    border: 1px solid #000000;
+}
+
+.button-fill-orange {
+    color: black;
+    border: 1px solid #000000;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 1.23;
+    color: black;
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 1.4;
+    color: #000000;
+}
+
+.title-bold {
+font-size: 32px;
+    line-height: 1.4;
+    color: #000000;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.4;
+    color: black;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.quotes::after {
+    content: '”';
+}
+
+.quotes::before {
+    content: '“';
+}

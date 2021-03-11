@@ -1,0 +1,184 @@
+/* GLOBAL */
+.container {
+    width: 808px;
+    height: 240px;
+    border: 1px solid black;
+}
+.name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.profession {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #000000;
+}
+
+
+.image {
+    margin-right: 18px;
+}
+
+/* GLOBAL END*/
+
+/* POSITION 1 */
+
+.position {
+    position: relative;
+}
+
+.name-position {
+    position: absolute;
+    top: 22px;
+    left: 120px;
+}
+
+.image-position {
+    position: absolute;
+}
+
+.profession-position {
+    position: absolute;
+    top: 58px;
+    left: 120px;
+}
+
+/* POSITION end*/
+
+
+/* BACKGROUND 2*/
+
+.background {
+    background-image: url(../man.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100px;
+    height: 200px;
+}
+
+.marg-background {
+    margin-left: 120px;
+    padding-top: 23px;
+}
+
+.marg-background-2 {
+    margin-left: 120px;
+}
+/* BACKGROUND END*/
+
+
+/* FLOAT 3*/
+
+.name-float {
+    padding-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.image-float {
+    float: left;
+}
+/* FLOAt end */
+
+
+/* TABLE 4 */
+
+.tr-1 {    
+    height: 70px;
+}
+
+
+.name-table {    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #000000;
+    vertical-align: middle;  
+}
+.name-table span {
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.17;
+    color: #000000;
+    margin-bottom: 9px;
+}
+/* TABLE end */
+
+
+/* TABLE CSS 5 */
+
+.table-grid {
+   display: table;    
+	border: none;
+	border-collapse: separate;
+	border-spacing: 5px;    
+}
+
+.table-grid-tr {
+    display: table-row;       
+}
+
+.table-grid-td {
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+/* end TABLE CSS */
+
+/* Start GRID 7 */
+
+.grid {
+    display: grid;   
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 100px 20px; 
+    grid-gap: 18px;    
+    grid-template-areas: "img text-1"
+                         "img text-2"
+}
+
+.grid-container {    
+    padding-top: 21px;
+}
+
+
+/* end GRID */
+
+
+/* FLEX START 8 */
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+.flex-ul {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.flex-ul .name {
+    margin-bottom: 9px;
+}
+
+/* FLEX END*/
+
+
