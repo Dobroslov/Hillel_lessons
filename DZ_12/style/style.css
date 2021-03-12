@@ -144,6 +144,19 @@
 
 /* end TABLE CSS */
 
+
+/* Start inline-block */
+
+.inline-block {
+    display: inline-block;    
+}
+
+.align-center {
+    vertical-align: middle;
+}
+/*End inline-block */
+
+
 /* Start GRID 7 */
 
 .grid {
