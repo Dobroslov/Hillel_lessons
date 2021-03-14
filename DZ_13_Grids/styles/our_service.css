@@ -1,0 +1,115 @@
+.section-trafalgar {
+    background-image:url(../img/background_trafalgar/figure-left.svg), url(../img/background_trafalgar/figure-right.svg);
+    background-position: left 10% top -20px, right 19% top 55%;
+    background-repeat: no-repeat;
+    margin-bottom: 96px;
+}
+
+.container-trafalgar {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 97px;
+}
+
+h1 {
+    font-family: 'Mulish', arial, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.56;
+    color: black; 
+    margin-bottom: 33px;
+}
+
+.text-trafalgar {
+    font-family: 'Mulish', arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #7D7987;
+    margin-bottom: 80px;
+}
+
+h1::after {
+    display: block;
+    content: ' ';
+    height: 2px;
+    width: 56px;
+    background-color: black;    
+    margin-top: 26px;
+}
+
+.title-center{
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-center::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-list-trafalgar {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 35px;
+    margin-bottom: 70px;
+}
+
+.grid-list-trafalgar li {
+    background-color: white;  
+    border-radius: 20px;        
+}
+
+.grid-list-trafalgar li:hover {
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 1);
+    transition: all 0.8s;
+}
+
+.container-item {    
+    padding: 46px 50px 46px 37px;
+}
+
+.container-item h2 {
+    font-family: 'Mulish', arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.container-item p {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #7D7987;
+    
+}
+
+.container-item img {
+    height: 95px;
+    margin-bottom: 24px;
+}
+
+.button-trafalgar {
+    font-family: Mulish;
+    min-width: 200px;
+    /* размер кнопки МИНимум 200px */
+    color: #458FF6;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.1;
+    border-radius: 55px;
+    border: #458FF6 solid 1px;
+    padding : 20px 50px;
+    background-color: white;     
+}
+
+.container-trafalgar {
+   display: grid;
+   justify-content: center;
+}

@@ -1,0 +1,20 @@
+/* Добавляем шрифты, которые скачали */
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    /* период замены шрифта 
+    по умолчанию на установленный */
+    src: url("../fonts/gilroy-bold.woff2") format('woff2');
+    src: url("../fonts/Gilroy-Bold.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;    
+    src: url("../fonts/gilroy-regular.woff2") format('woff2');
+    src: url("../fonts/Gilroy-Regular.woff") format('woff');
+}
