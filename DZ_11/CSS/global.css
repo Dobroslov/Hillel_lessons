@@ -1,56 +1,58 @@
 html, 
-body {
-    font-family: Gilroy, sans-serif;
-    background-color: #F1F1F2;
-    min-height: 100%; 
-    /* минимальная высота чтоб была в любом случае 100% */
+body {    
+    font-family: 'Poppins', sans-serif;
+    font-family: 'DM Serif Display', serif;    
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: white;    
 }
 
 .container {
-    width: 1172px;
+    width: 1115px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-orange {
-    width: 1172px;
+.container-demo {
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
-    background: #F7941E;
-    padding: 81px 69px;
+    margin-bottom: 150px;     
 }
 
 .button {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    line-height: 1.22;
-    color: #F7941E;
-    border: 1px solid #F7941E;
-    border-radius: 5px;
-    padding: 14px 24px;
-    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.5;
+    color: white;    
+    border-radius: 10px;
+    padding: 16px 67px;    
     min-width: 200px;
     display: inline-block;
     text-align: center;
+    background-color: #9B9BCA;
 }
 
-.button-fill {
-    background-color: #F7941E;
-    color: white;
+.button-uppercase {
+    text-transform: uppercase;
 }
 
-.button-fill-black {
-    background-color: black;
-    color: white;
-    border: 1px solid #000000;
-}
-
-.button-fill-orange {
-    color: black;
-    border: 1px solid #000000;
-}
-
-a {
-    color: black;
+.button-login {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: white;    
+    border-radius: 5px;
+    padding: 21px 80px;    
+    min-width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color: #9595C9;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -61,33 +63,84 @@ h1 {
     font-weight: bold;
 }
 
-.title {
-    font-size: 32px;
-    line-height: 1.4;
-    color: #000000;
+.title-h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #626780;
 }
 
-.title-bold {
-font-size: 32px;
-    line-height: 1.4;
-    color: #000000;
-    font-weight: bold;
+.title-h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.82;
+    color: #626780;
 }
 
-.text {
-    font-size: 20px;
-    line-height: 1.4;
-    color: black;
+.text-2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #626780;
 }
 
+.text-3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #626780;
+}
 .align-center {
     text-align: center;
 }
 
-.quotes::after {
-    content: '”';
+.title-pt-serif {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 1.4;
+    color: #402B2B;
 }
 
-.quotes::before {
-    content: '“';
+.container-join-us {
+    width: 550px;
+    margin-right: auto;
+    margin-bottom: 77px;
+}
+
+.login-form {
+    width: 708px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 107px 135px 55px 170px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(149, 149, 201, 0.4);
+    border-radius: 10px;
+    }
+
+.login-form p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 2.22;
+    color: #626780;
+}
+
+.login-form a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2.22;
+    color: #F01F35;
 }

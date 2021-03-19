@@ -372,11 +372,12 @@ textarea {
 
 a {
     text-decoration: inherit;
+    color: inherit;
 }
 
 button {
     font-family: inherit;
     background-color: transparent;
     border: none;
-    padding: 0px;
+    padding: 0px;    
 }

@@ -1,0 +1,75 @@
+.footer {
+    margin-top: 132px;
+    background-image: url(../img/footer/bacground-footer.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.footer-nav {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 177px;
+    display: flex;
+    justify-content: space-between;
+    gap: 108px;
+    margin-bottom: 79px;
+}
+
+.footer-type-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-type-list {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #E6E6E6;
+}
+
+.footer-title-list {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.licen-social-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.licens {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #FFFFFF;
+}
+
+.social-type-list {
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    padding-left: 210px;
+    gap: 31px;
+}
+
+.logo-footer {    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin-left: 8px;
+}

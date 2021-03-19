@@ -1,0 +1,150 @@
+.feature {
+    margin-bottom: 135px;
+    background-image: url(../img/best_feature/girl.png),
+    url(../img/best_feature/many_cicles.png);
+    background-repeat: no-repeat;
+    background-position: bottom -80px left 90px, left 90px top 260px;
+}
+.title-container-feature {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.title-container-feature h2 {
+    margin-bottom: 12px;
+}
+
+.tipe-list-future {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 212px;
+    margin-top: 162px;
+}
+
+.future-container {
+    padding: 60px 48px 116px;    
+    width: 445px;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.future-container img {
+    width: 340px;
+    border-radius: 12px;
+    margin-bottom: 53px;
+}
+
+.future-container h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.red-button {
+    position: absolute;
+    bottom: -30px;    
+    background-color: #F01F35;    
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.15));
+}
+
+.fiol-button {
+    position: absolute;
+    bottom: -30px;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.15));  
+}
+
+.center-button {  
+    display: flex;
+    justify-content: center; 
+}
+
+.title-container-feature-left {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.slider-list {
+    position: relative;
+    margin-top: 103px;
+    width: 490px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+    padding: 60px 92px 33px 37px;
+    margin-left: auto;
+}
+
+.text-slider {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #9D9D9D;
+    margin-bottom: 40px;
+}
+
+.slider-button {
+    position: absolute;
+    right: 13px;
+    top: 170px;    
+}
+
+.figure-slider {
+    display: flex;
+    align-items: center;
+}
+
+.figure-slider img {
+    margin-right: 20px;
+}
+
+.figcaption-name {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #626780;
+}
+
+.figcaption-raitung {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #9D9D9D;
+}
+
+.rating-star {
+    display: flex;
+    align-items: center;
+}
+
+.rating-star-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85px;
+    margin-right: 8px;
+}
+
+.rating-star-list img {
+    margin: 0;
+}
+
+.rating-star span {
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #9D9D9D;
+}
