@@ -1,0 +1,68 @@
+html, 
+body {    
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1150px) {
+    .container {
+        width: 85%;
+    }
+}
+/*
+@media screen and (max-width: 950px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 90%;
+    }
+} */
+
+
+
+
+.title-h2 {
+    font-family: 'Libre Franklin';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.21;
+    color: #333333;
+}
+
+.title-h3 {
+    font-family: 'Libre Franklin';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.text-p {
+    font-family: 'Libre Franklin';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #333333;
+}

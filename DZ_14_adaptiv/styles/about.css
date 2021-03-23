@@ -1,0 +1,25 @@
+.about {
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .about {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+}
+
+
+.about h2 {
+    margin-bottom: 76px;
+}
+
+@media screen and (max-width: 1150px) {
+    .about h2 {
+        margin-bottom: 35px;
+    }
+    
+}

@@ -1,0 +1,120 @@
+.skills {
+    background-color: #FFFAF2;
+    padding-top: 93px;
+    padding-bottom: 145px;
+}
+
+@media screen and (max-width: 1150px) {
+    .skills {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+}
+
+.skills h2 {
+    margin-bottom: 86px;
+}
+
+@media screen and (max-width: 1150px) {
+    .skills h2 {
+        margin-bottom: 40px;
+        text-align: center;
+    }    
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+@media screen and (max-width: 1150px) {
+    .skills-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        flex-direction: column; 
+    }  
+}
+
+.skills-content img {
+    width: 350px;
+    margin-right: 125px;
+}
+
+@media screen and (max-width: 1150px) {
+    .skills-content img {
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    } 
+}
+
+.skills-list {
+    flex-grow: 1;    
+}
+
+@media screen and (max-width: 1150px) {
+    .skills-list {        
+        align-self: stretch;
+    }
+}
+
+.skill-list-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-list li:first-of-type {
+    margin-bottom: 65px;
+}
+
+@media screen and (max-width: 1150px) {
+    .skills-list li:first-of-type {
+        margin-bottom: 30px;
+    }
+}
+
+
+.skills-list li:last-of-type {
+    margin-bottom: 0;
+}
+
+.skills-list li {
+    margin-bottom: 20px;
+}
+
+.skills-list-title {
+    padding-right: 10px;
+    width: 190px;
+}
+
+.skill-list-value {
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 1150px) {
+    .skill-list-value {
+        flex-basis: 70%;
+        flex-grow: 0;
+        align-self: center;
+    }
+}
+
+.progress-bar {
+    display: block;
+    height: 24px;
+    background-color: #F5D6AB;
+    position: relative;
+}
+
+.progress-step {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 95%;
+    background-color: #C66C49;
+    overflow: hidden;
+}

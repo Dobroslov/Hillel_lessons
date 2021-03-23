@@ -1,0 +1,64 @@
+.hero {
+    background-image: url(../img/1_hero/hero2x.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    min-height: 100vh;
+    background-size: cover;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1150px) {
+    .hero {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }    
+}
+
+.hero-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Libre Franklin';
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1150px) {
+    h1 {
+        font-size: 55px;
+    }
+}
+
+.hero p {
+    font-family: Libre Franklin;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.21;
+    margin-bottom: 106px;
+}
+
+.link-hero {
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+}
