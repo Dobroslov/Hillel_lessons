@@ -1,0 +1,161 @@
+.container {
+    width: 1300px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.vova {
+    
+    width: 174px;
+    height: 174px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+
+.big {
+    transform-origin: center bottom;
+    animation: ellipse 3s infinite;    
+    animation-timing-function: ease-in-out;
+    position: absolute; 
+    rotate: 90deg;
+     
+}
+
+@keyframes ellipse {
+    0% { transform: rotate(0deg);}
+  50% { transform: rotate(180deg);}
+  100% { transform: rotate(0deg);}
+}
+/* ключевые точки для анимации */
+
+.korich {
+    transform-origin: center bottom;
+    animation: fore 3s infinite;    
+    animation-timing-function: ease-in-out;
+    position: absolute; 
+    top: 37px;
+    left: 37px;
+       
+}
+
+@keyframes fore {
+    0% { transform: rotate(0deg);}
+  50% { transform: rotate(-90deg);}
+  100% { transform: rotate(0deg);}
+}
+
+.red {
+    transform-origin: top right;
+    animation: red 3s infinite;    
+    animation-timing-function: ease-in-out;
+    position: absolute; 
+    bottom: 37px;
+    left: 37px;
+       
+}
+
+@keyframes red {
+    0% { transform: rotate(0deg);}
+  50% { transform: rotate(-270deg);}
+  100% { transform: rotate(0deg);}
+}
+
+
+.green {
+    transform-origin: left bottom;
+    animation: green 3s infinite;    
+    animation-timing-function: ease-in-out;    
+    position: absolute; 
+    top: 37px;
+    right: 37px;
+}
+
+@keyframes green {
+    0% { transform: rotate(0deg);}
+  50% { transform: rotate(270deg);}
+  100% { transform: rotate(0deg);}
+}
+
+.yelov {
+    transform-origin: left top;
+    animation: yelov 3s infinite;    
+    animation-timing-function: ease-in-out;  
+    position: absolute; 
+    bottom: 55px;
+    right: 55px;
+     
+}
+
+@keyframes yelov {
+    0% { transform: rotate(0deg);}
+  50% { transform: rotate(-180deg);}
+  100% { transform: rotate(0deg);}
+}
+
+.black {
+    transform-origin: left;
+    animation: black 3s infinite;    
+    animation-timing-function: ease-in-out; 
+    position: absolute; 
+    right: 73px;
+    top: 73px;
+      
+}
+
+@keyframes black {
+    0% { transform: translate(0);}
+  50% { transform: translateX(-14px);}
+  100% { transform: translate(0);}
+}
+
+
+
+    /* animation-name: korich-half; 
+    /* названине анимации для @keyframes */
+
+    /* animation-duration: 3s; */
+    /* время анимацчии */    
+
+    /* animation-iteration-count: infinite;   */
+    /* колличество раз прокрутки анимации от 1 до бесконечности
+    как в примере */
+
+    /* animation-direction: normal; */
+    /* Все повторы анимации воспроизводятся так, как указано.  */
+
+    /* animation-timing-function: ease-in; */
+    /* кривые безье сам способ временной анимации (ускорение и замедление1) */
+
+    /* animation-delay: 1s; */
+    /* задержка перед началома анимации */ 
+
+
+    .text {
+        position: absolute;
+        padding: 15px;
+        left: 0;
+        top: 0;
+        font-size: 45px;
+        background-color: darkcyan;
+        border-radius: 15px;
+        border: 2px solid rgb(66, 196, 73);
+        transform-origin: left;
+        animation: text 8s infinite;    
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes text {
+        0% { transform: translate(0);}        
+        25% { transform: translate(1075px, 0);}
+        50% { transform: translate(1075px, 530px);}
+        75% { transform: translate(0, 530px);}
+        100% { transform: translate(0);}
+    }
