@@ -15,33 +15,6 @@ body {
         width: 85%;
     }
 }
-/*
-@media screen and (max-width: 950px) {
-    .container {
-        width: 80%;
-    }
-}
-
-@media screen and (max-width: 769px) {
-    .container {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    .container {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .container {
-        width: 90%;
-    }
-} */
-
-
-
 
 .title-h2 {
     font-family: 'Libre Franklin';
@@ -49,6 +22,20 @@ body {
     font-size: 24px;
     line-height: 1.21;
     color: #333333;
+}
+
+@media screen and (max-width: 990px) {
+    .title-h2 {
+        text-align: center;
+        font-weight: 600;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .title-h2 {
+        text-align: center;
+        font-weight: 600;
+    }    
 }
 
 .title-h3 {
@@ -65,4 +52,18 @@ body {
     font-size: 18px;
     line-height: 1.67;
     color: #333333;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 990px) {
+    .text-p {
+        font-size: 15px;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .text-p {
+        font-size: 12px;
+    }    
 }

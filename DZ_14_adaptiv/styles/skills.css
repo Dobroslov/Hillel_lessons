@@ -8,8 +8,21 @@
     .skills {
         padding-top: 45px;
         padding-bottom: 45px;
-    }
-    
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .skills {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }    
+}
+
+@media screen and (max-width: 450px) {
+    .skills {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }    
 }
 
 .skills h2 {
@@ -19,6 +32,20 @@
 @media screen and (max-width: 1150px) {
     .skills h2 {
         margin-bottom: 40px;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 600px) {
+    .skills h2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 450px) {
+    .skills h2 {
+        margin-bottom: 25px;
         text-align: center;
     }    
 }
@@ -51,6 +78,27 @@
     } 
 }
 
+@media screen and (max-width: 600px) {
+    .skills-content img {
+        width: 280px;        
+        margin-bottom: 40px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .skills-content img {
+        width: 250px;        
+        margin-bottom: 25px;
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .skills-content img {
+        width: 220px;        
+        margin-bottom: 25px;
+    } 
+}
+
 .skills-list {
     flex-grow: 1;    
 }
@@ -64,6 +112,12 @@
 .skill-list-row {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1150px) {
+    .skill-list-row {    
+        justify-content: center;
+    }
 }
 
 .skills-list li:first-of-type {
@@ -88,6 +142,30 @@
 .skills-list-title {
     padding-right: 10px;
     width: 190px;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) 
+{
+    .skills-list-title {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .skills-list-title {
+        width: 120px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    .skills-list-title {
+        width: 100px;
+        font-size: 13px;
+        line-height: 2.1;
+    }
 }
 
 .skill-list-value {
@@ -96,11 +174,29 @@
 
 @media screen and (max-width: 1150px) {
     .skill-list-value {
-        flex-basis: 70%;
+        flex-basis: 56%;
         flex-grow: 0;
         align-self: center;
     }
 }
+
+@media screen and (max-width: 600px) 
+{
+    .text-1 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 450px) 
+{
+    .text-1 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2.1;
+    }
+}
+
 
 .progress-bar {
     display: block;

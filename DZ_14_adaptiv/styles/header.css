@@ -11,10 +11,34 @@ header {
     }
 }
 
+@media screen and (max-width: 990px) {
+    header {
+        margin-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+    .nav-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .nav-header {
+        display: none;        
+    }    
 }
 
 .nav-header li {
@@ -22,7 +46,14 @@ header {
     font-weight: normal;
     font-size: 18px;
     line-height: 1.22;
+    padding: 15px 30px;
 }
+
+@media screen and (max-width: 990px) {
+    .nav-header li {
+        font-size: 22px;       
+    }
+
 .nav-header li:first-child {
     font-family: Libre Franklin;
     font-weight: bold;
@@ -30,12 +61,47 @@ header {
     line-height: 1.22;
 }
 
+@media screen and (max-width: 990px) {
+    .nav-header li:first-child  {
+        font-size: 22px;       
+    }
+
 .logo {
     font-family: Libre Franklin;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.21;
 }
+
+@media screen and (max-width: 990px) {
+    .logo {
+        font-size: 64px;
+        margin-bottom: 10px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }  
+}  
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-bottom: 50px;
+        font-size: 40px;
+    } 
+} 
+
+@media screen and (max-width: 450px) {
+    .logo {
+        margin-bottom: 50px;
+        font-size: 24px;
+    } 
+} 
+} 
+
 
 .nav-list {
     padding: 0 30px;

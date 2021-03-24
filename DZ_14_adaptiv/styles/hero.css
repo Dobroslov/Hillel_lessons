@@ -16,8 +16,35 @@
     .hero {
         padding-top: 45px;
         padding-bottom: 45px;
+        min-height: 90vh;
     }    
 }
+
+@media screen and (max-width: 768px) {
+    .hero {
+        padding-top: 110px;
+        padding-bottom: 45px;
+        min-height: 70vh;
+    } 
+} 
+
+@media screen and (max-width: 600px) {
+    .hero {
+        padding-top: 36px;
+        padding-bottom: 50px;
+        min-height: 50vh;
+    } 
+} 
+
+@media screen and (max-width: 450px) {
+    .hero {
+        padding-top: 36px;
+        padding-bottom: 50px;
+        min-height: 40vh;
+    } 
+} 
+
+/* hero */
 
 .hero-container {
     flex-grow: 1;
@@ -25,6 +52,13 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 600px) {
+    .hero-container {
+        flex-grow: 0;
+    } 
+} 
+
+/* hero-container */
 
 .hero-content {
     display: flex;
@@ -32,6 +66,14 @@
     flex-grow: 1;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+    .hero-content {
+        flex-grow: 0;
+    } 
+} 
+
+/* hero-content */
 
 h1 {
     font-family: 'Libre Franklin';
@@ -48,6 +90,40 @@ h1 {
     }
 }
 
+@media screen and (max-width: 990px) {
+    h1 {
+        font-size: 47px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+} 
+
+@media screen and (max-width: 450px) {
+    h1 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+} 
+
+/* h1 */
+
 .hero p {
     font-family: Libre Franklin;
     font-weight: normal;
@@ -56,9 +132,60 @@ h1 {
     margin-bottom: 106px;
 }
 
-.link-hero {
+@media screen and (max-width: 990px) {
+    .hero p {        
+        font-size: 24px;
+        margin-bottom: 106px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero p {        
+        font-size: 22px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero p {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 41px;
+    }
+} 
+
+@media screen and (max-width: 450px) {
+    .hero p {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+} 
+
+/* hero p */
+
+.{
     text-decoration: underline;
     font-weight: normal;
     font-size: 18px;
     line-height: 1.22;
 }
+
+@media screen and (max-width: 990px) {
+    .link-hero {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .link-hero {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* link-hero  */
