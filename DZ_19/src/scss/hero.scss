@@ -1,0 +1,27 @@
+.hero {
+    background-image: url(../image/1_hero/element-top-left.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+.hero__img {
+    margin-top: 17px;
+}
+
+.hero__title {
+    margin-bottom: 25px;
+}
+
+.hero__text {
+    margin-bottom: 45px;
+}
+    
+.hero__content {
+    width: 36%;    
+}

@@ -1,0 +1,39 @@
+.header__container {
+    padding-top: 56px;
+    margin-bottom: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__span {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: (30 / 24);
+    color: #233348;       
+}
+
+.logo__img {
+    margin-right: 12px;
+}
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__item {
+    padding: 5px;
+    margin-right: 30px;
+    font-size: 1.8rem;
+    line-height: (23 / 18);
+    color: #1F1534;
+    opacity: 0.5;
+    &:last-of-type {
+        margin-right: 0;
+    }
+    &:first-of-type {
+        font-weight: bold;
+        opacity: 1;
+    }
+}

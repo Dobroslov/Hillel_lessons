@@ -1,0 +1,29 @@
+.button {
+    min-width: 200px;
+    color: #458FF6;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 1.1;
+    border-radius: 55px;
+    border: #458FF6 solid 1px;
+    padding : 20px 50px;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+    
+.button-container {
+    display: grid;
+    justify-content: left;
+}
+
+.button-container--center {
+    display: grid;
+    justify-content: center;
+}
+
+.button--fill {
+    color: white;
+    border: white;
+    background-color: #458FF6;
+}
