@@ -1,0 +1,42 @@
+.leading-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    padding-bottom: 230px;
+    background-image: url(../image/3_healthcare/element-right.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom 110px; 
+    img {
+        width: 54%;
+    }
+}
+
+.leading-health-content {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    p {
+        margin-bottom: 33px;
+    }    
+}
+
+.download-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20%;
+    margin-bottom: 250px;
+    img {
+        width: 56%;
+    }
+}
+
+.download-health-content {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    p {
+        margin-bottom: 33px;
+    }    
+}

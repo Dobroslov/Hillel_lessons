@@ -1,0 +1,108 @@
+.reviews {
+    background-image: url(../image/4_costumer/background-left.svg);
+    background-repeat: no-repeat;
+    background-position: left 330px center;
+}
+
+.reviews-section {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 42px;
+    padding: 64px 118px 80px;
+    color: white;    
+    h2 {
+        font-weight: bold;
+        font-size: 3.6rem;
+        line-height: (48 / 36);
+        color: #FFFFFF;
+        text-align: center;
+        &::after {
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    p {
+        font-size: 1.9rem;
+        line-height: (30 / 19);
+        color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+.persona-container {
+    display: grid;
+    grid-template-columns: 141px 200px;
+    gap: 18px;
+    justify-content: center
+}
+
+.persona-name {
+    align-self: center;
+}
+
+.persona {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        margin-right: 29px;
+    }
+    span {
+        font-weight: bold;
+        font-size: 2.2rem;
+        line-height: (48 / 22);
+        color: #FFFFFF;
+    }
+}
+
+blockquote {
+    font-size: 1.9rem;
+    line-height: (30 / 19);
+    color: rgba(255, 255, 255, 0.9);
+    width: 46%;
+    &::after {
+        content: '"';
+    }   
+    &::before {
+        content: '"';
+    }  
+}
+
+// button slider 
+
+.button-list {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 221px;
+    align-items: center;
+}
+
+.button-slider {
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: #458FF6;
+    padding: 0;
+    border: 0;
+    opacity: 0.3;
+}
+.border-slider-selected {
+    opacity: 1;
+}
+.border-slider-vector-left {    
+    transform: rotate(180deg);  
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    margin-right: 80px;
+    padding-bottom: 8px;
+    opacity: 0.3;
+}
+.border-slider-vector-right {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;  
+    margin-left: 80px;
+}
